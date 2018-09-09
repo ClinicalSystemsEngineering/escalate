@@ -1,0 +1,12 @@
+{
+	"trigger":"triggerText",
+	"desc":"description of trigger",
+	"heriarchy":[{"root":"rootname"},{"node1":"name"},{"node2":"name"},{"node3":"name"},{"node4":"name"},{"node5":"name"}],	
+	"delayTimer":0,
+	"outputs":[{"type":"pubName","deviceID":"output device ID","msg":"message text"}],
+	"cotriggers":[{"trigger":"triggerText"}]
+	"escalateTimer":60,
+	"escalateTrigger":"triggerText",
+	"cancelTrigger":"triggerText",
+	"autocancelTimer":120
+}
